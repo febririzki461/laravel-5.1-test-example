@@ -12,17 +12,17 @@
 
                 <div class="form-group">
                     <label class="control-label">Name</label>
-                    <input type="text" name="name" class="form-control">
+                    <input type="text" name="name" class="form-control" value="{!! old('name') !!}">
                 </div>
 
                 <div class="form-group">
                     <label class="control-label">Email</label>
-                    <input type="email" name="email" class="form-control">
+                    <input type="email" name="email" class="form-control" value="{!! old('email') !!}">
                 </div>
 
                 <div class="form-group">
                     <label class="control-label">Message</label>
-                    <textarea name="message" class="form-control" rows="7"></textarea>
+                    <textarea name="message" class="form-control" rows="7">{!! old('message') !!}</textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
