@@ -17,7 +17,7 @@
 
                 <div class="form-group">
                     <label class="control-label">Email</label>
-                    <input type="email" name="email" class="form-control" value="{!! old('email') !!}">
+                    <input type="text" name="email" class="form-control" value="{!! old('email') !!}">
                 </div>
 
                 <div class="form-group">
